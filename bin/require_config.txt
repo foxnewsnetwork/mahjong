@@ -1,0 +1,19 @@
+'use strict'
+
+require.config({
+  "paths":
+  "shim": {
+    "angular": {
+      exports: "angular"
+    },
+    "angular-resource": {
+      deps: ["angular"]
+    },
+    "angular-cookies": {
+      deps: ["angular"]
+    },
+    "angular-sanitize": {
+      deps: ["angular"]
+    }
+  }
+})

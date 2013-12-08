@@ -1,0 +1,9 @@
+node_modules
+.tmp
+log
+www/components
+.sass-cache
+temp
+dump.rdb
+config/twitter.yml
+config/smtp.yml
